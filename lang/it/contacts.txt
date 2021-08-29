@@ -1,0 +1,10 @@
+Contattami
+Tutti i campi sono obbligatori
+Nome
+Cognome
+Indirizzo email
+Oggetto
+Messaggio
+Invia
+Grazie!\nLa Il tuo messaggio è stato registrato
+I miei social

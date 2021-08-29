@@ -1,0 +1,75 @@
+#title {
+    margin-top: 125px;
+    color: var(--giallo);
+    text-align: center;
+}
+
+cite {
+    color: var(--giallo);
+    margin-left: 25px;
+}
+
+label {
+    color: var(--giallo);
+}
+
+form {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 20px;
+    background-color: #0004;
+    font-size: 20px;
+}
+
+input[type=text], textarea {
+    font-size: 15px;
+    width: 96%;
+    margin: 5px 2% 10px 2%;
+    padding: 10px;
+    background-color: #0004;
+    border: none;
+    border-left: var(--giallo) solid 2px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input[type=text]:focus, textarea:focus {
+    background-color: #000;
+    border-left: var(--giallo) solid 6px;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #0004;
+    color: var(--giallo);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    margin: 10px 25%;
+    border: 2px solid var(--giallo);
+}
+input[type=submit]:hover {
+    background-color: var(--giallo);
+    color: black;
+    box-shadow: 0 0 10px inset;
+    border: 0;
+}
+
+#socials {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    row-gap: 45px;
+    column-gap: 30px;
+    align-items: center;
+}
+
+#socials h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    place-self: center;
+}
+#socials img {
+   width: 100%;
+}

@@ -1,0 +1,10 @@
+Contact me
+All fields are required
+Name
+Surname
+Email address
+Subject
+Message
+Send
+Thanks!\nYour message has been received
+My socials

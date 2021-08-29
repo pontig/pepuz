@@ -1,0 +1,15 @@
+video {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(.5);
+}
+
+.article {
+    height: 500px;
+
+}
+
+#stage {
+    z-index: -1;
+}
