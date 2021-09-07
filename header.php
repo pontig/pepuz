@@ -1,5 +1,7 @@
 <header>
-    <h1>Katlin <br> Quadrelli</h1>
+    <?php echo file_get_contents("src/icons/logo.svg"); ?>
+    <!-- <img src="src/kq_logo.png" id="topleft"> -->
+    <h1>Katlin Quadrelli</h1>
     <div id="hamburger">
         <div id="bar1"></div>
         <div id="bar2"></div>
@@ -15,7 +17,7 @@
         echo '<div class="voice"><a href="performing.php">' . $voices[3] . '</a></div>';
         echo '<div class="voice"><a href="contacts.php">' . $voices[4] . '</a></div>';
         echo '<div class="voice active"><img src="' . $path . '/flag.png"></div>';
-        echo '<div class="voice" id="pippo"><img src="src/logo_big.png"></div>';
+        echo '<div class="voice" id="pippo"><img src="src/kq_logo.png"></div>';
         ?>
         <div id="x">X</div>
         <div class="voice flag">Choose Language:</div>

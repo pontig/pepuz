@@ -42,17 +42,21 @@ window.addEventListener("load", () => {
             document.getElementsByTagName("header")[0].style.backgroundColor = "var(--giallo)"
             document.getElementsByTagName("header")[0].style.boxShadow = "0 0 20px 2px black"
             document.querySelector("header h1").style.fontSize = "20px"
-            document.querySelector("header h1").style.color = "#0009"
+            document.querySelector("header h1").style.color = "var(--neroTrasparente)"
+            document.querySelector("header h1").style.marginTop = "25px"
+            document.getElementById("topleftpath").style.fill = "var(--neroTrasparente)"
             Array.from(document.querySelectorAll("#hamburger>div")).forEach(e => {
-                e.style.backgroundColor = "#0009"
+                e.style.backgroundColor = "var(--neroTrasparente)"
             })
         } else {
             document.getElementsByTagName("header")[0].style.backgroundColor = "transparent"
             document.getElementsByTagName("header")[0].style.boxShadow = "none"
             document.querySelector("header h1").style.fontSize = "30px"
-            document.querySelector("header h1").style.color = "#fffa"
+            document.querySelector("header h1").style.color = "var(--biancoTrasparente)"
+            document.querySelector("header h1").style.marginTop = "18px"
+            document.getElementById("topleftpath").style.fill = "var(--biancoTrasparente)"
             Array.from(document.querySelectorAll("#hamburger>div")).forEach(e => {
-                e.style.backgroundColor = "#fffa"
+                e.style.backgroundColor = "var(--biancoTrasparente)"
             })
         }
 

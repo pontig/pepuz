@@ -1,5 +1,7 @@
 :root {
-    --giallo: #f4c901
+    --giallo: #f4c901;
+    --biancoTrasparente: #fffa;
+    --neroTrasparente: #0009;
 }
 
 * {
@@ -20,6 +22,17 @@ body {
     background-position: center;
 }
 
+#topleft {
+    width: 30px;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+#topleftpath {
+    fill: var(--biancoTrasparente);
+}
+
 #hamburger {
     display: flex;
     flex-direction: column;
@@ -33,7 +46,7 @@ body {
 
 #hamburger>div {
     width: 100%;
-    background-color: #fffa;
+    background-color: var(--biancoTrasparente);
     height: 5px;
 }
 
@@ -73,7 +86,7 @@ header {
 header>h1 {
     font-size: 30px;
     text-align: center;
-    color: #fffa;
+    color: var(--biancoTrasparente);
 }
 
 #x {
@@ -101,7 +114,7 @@ a:active {
 }
 
 .voice:not(.flag, .active):hover {
-    background-color: #0009;
+    background-color: var(--neroTrasparente);
     color: var(--giallo);
     box-shadow: 0 0 10px inset;
 }
@@ -118,6 +131,8 @@ a:active {
     color: var(--giallo);
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 15px;
 }
 
 #sitemap .voice {
@@ -127,7 +142,7 @@ a:active {
 footer {
     bottom: 0;
     width: 100vw;
-    background-color: #0009;
+    background-color: var(--neroTrasparente);
     border-top: 4px var(--giallo) solid;
     padding-top: 20px;
     box-shadow: 0 0 10px #000 inset;
@@ -144,7 +159,9 @@ footer {
 
 #pippo img {
     width: 50%;
+    filter: drop-shadow(0 0 25px black);
 }
 #pippo {
     padding: 25px;
+    margin-top: 50px;
 }
